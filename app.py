@@ -6,7 +6,7 @@ from groq import Groq
 app = Flask(__name__)
 
 # Set up Groq client
-client = Groq(api_key='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')  # Replace with actual Groq API key
+client = Groq(api_key='')  # Replace with actual Groq API key
 
 # Home route
 @app.route("/")
